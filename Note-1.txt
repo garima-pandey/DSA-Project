@@ -1,0 +1,78 @@
+DSA: Data Structures and Algorithms
+
+It is the process to manage/arrage the data in a particular structure.
+Algorithms: Operations/Functions: CRUD- Create Read Update Delete, Search
+
+Optimized: efficient use of resources(time, space)
+
+Searching: Linear , Binary, Hashing
+
+Sorting
+Bubble, Insertion, Selection, Merge, Quicksort, Heap, Bucket, Shell
+
+Linear DS
+
+Arrays
+Linked List
+
+Stack
+Queue
+
+Non-Linear DS
+
+Tree
+Graph
+
+Brute Force Approach
+Divide and Conquer (Combine)
+Scan Array From Right Approach
+Two-pointer Approach
+Recursion
+	Dynamic Programming
+	Backtracting
+Bit Manipulation
+
+Problem: Analysis: 
+Constraints/Conditions
+
+Two Factor:
+1) Time Complexity
+2) Space Complexity
+
+3 Solves:
+
+Best Case
+Average Case
+Worst Case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
