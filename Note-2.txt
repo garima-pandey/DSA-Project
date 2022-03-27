@@ -1,0 +1,16 @@
+Anagram String
+
+String - 1: listen
+String - 2: silent
+
+Anagram Strings
+
+
+Que: Home work 
+
+int arr[] = {3, 2, 2, 3};
+int val = 3
+
+o/p: 2
+
+Que: Fibonacci Series
