@@ -4,29 +4,48 @@ public class ShellSort {
 	
 	public static void shellSort(int arr[], int n)
 	{
-		int temp, i, j;
-		int s = n / 2; //size of shell - 5
+		//int temp, i, j;
+		//int s = n / 2; //size of shell - 5
 		
-		while(s > 0)
-		{
-			for(i = s; i < n; i++) // 5
-			{
-				for(j = i - s; i >= 0; i = i - s)// 0
-				{
-					if((arr[j] > arr[j + s]))
-					{
-						temp = arr[j];
-						arr[j] = arr[j + s];
-						arr[j + s] = temp;
-					}
-					else {
-						break;
-					}
-				}
-			}
+		for (int s = n / 2; s > 0; s /= 2) { //size of shell
 			
-			s = s / 2;
+		    for (int i = s; i < n; i += 1) {
+		    
+		    	int temp = arr[i];// size of shell value
+		    	int j;
+		    
+		    	for (j = i; j >= s && arr[j - s] > temp; j -= s) {
+		      
+		    		arr[j] = arr[j - s];
+		    
+		    	}
+		    
+		    	arr[j] = temp;
+		    
+		    }
+		  
 		}
+		
+//		while(s > 0)
+//		{
+//			for(i = s; i < n; i++) // 5
+//			{
+//				for(j = i - s; i >= 0; i = i - s)// 0
+//				{
+//					if((arr[j] > arr[j + s]))
+//					{
+//						temp = arr[j];
+//						arr[j] = arr[j + s];
+//						arr[j + s] = temp;
+//					}
+//					else {
+//						break;
+//					}
+//				}
+//			}
+//			
+//			s = s / 2;
+//		}
 	}
 
 	public static void main(String[] args) {
