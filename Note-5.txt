@@ -1,0 +1,31 @@
+Wrapper Classes
+
+- A wrapper class is a class whose object wraps or contains primitive data types.
+
+Need of Wrapper Class:
+
+- They convert primitive data types into objects.
+
+Primitve Data Types									Wrapper Class
+
+int															Integer
+char 														Character
+short														Short
+byte														Byte
+long														Long
+float														Float
+boolean													Boolean
+double														Double
+
+Autoboxing: convert primitive data types into object data types or wrapper classes
+e.g: int to Integer, char to Character etc
+
+
+unboxing:Reverse of Autoboxing
+e.g: Integer to int, Long to long etc
+
+# How to take user input at runtime? (Second Way)
+
+Ans: Scanner class
+
+- Scanner is a class in java.util package
