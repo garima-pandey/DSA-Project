@@ -1,31 +1,64 @@
-Wrapper Classes
+Stack: 
 
-- A wrapper class is a class whose object wraps or contains primitive data types.
+Call stack
 
-Need of Wrapper Class:
+A call stack is a stack data structute that is used to trace the sequence of the function call.
 
-- They convert primitive data types into objects.
+Push: when we call a function
+Pop: When function return back to function call
 
-Primitve Data Types									Wrapper Class
+Three concepts of Recursion:
 
-int															Integer
-char 														Character
-short														Short
-byte														Byte
-long														Long
-float														Float
-boolean													Boolean
-double														Double
+1. Base Case or Stop condition
+2. Small Problem
+3. Processing Logic
 
-Autoboxing: convert primitive data types into object data types or wrapper classes
-e.g: int to Integer, char to Character etc
+Type of Recursion
+
+1. Tail Recursion
+
+If a recursion function is calling itself and that recursive call is the last statement in 
+the function. After that call there is nothing, it is not performing anything.
+
+2. Head Recursion
+
+3. Linear Recursion
+
+4. Tree Recursion
+
+5. Indirect Recursion
+
+6. Stack Falling
+
+7. Stack Building
 
 
-unboxing:Reverse of Autoboxing
-e.g: Integer to int, Long to long etc
+Task:
 
-# How to take user input at runtime? (Second Way)
+1. Fibonacci
+2. Reverse a String
+3. Even Odd (1 to 10)
 
-Ans: Scanner class
 
-- Scanner is a class in java.util package
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
